@@ -1,6 +1,13 @@
-# 🕳️ Depth Estimation with MiDaS (PyTorch)
+# 🔍 Depth Estimation Using MiDaS (PyTorch)
 
 This project demonstrates monocular depth estimation using the **MiDaS model** from Intel, a state-of-the-art deep learning model that predicts scene depth from a single RGB image. This implementation is designed for use in **Jupyter notebook**.
+
+
+## 📸 Example Outputs
+| Original Image                          | Depth Map                               |
+| --------------------------------------- | --------------------------------------- |
+| ![](./datset/mountain_river.jpg)        | ![](./outputs/mountain_river_depth.png) |
+| ![](./datset/city.jpg)                  | ![](./outputs/city_depth.png)           |
 
 
 ## 📌 Features
@@ -10,6 +17,13 @@ This project demonstrates monocular depth estimation using the **MiDaS model** f
 - Visualize original images + depth predictions side by side
 - Batch prediction and optional saving of results
 - Lightweight and Colab-friendly
+
+
+## 📂 Project Structure
+├── dataset/          # Input images
+├── outputs/          # Depth map results
+├── depth_estimator.py  # Main Python script
+└── README.md         # Project documentation
 
 
 ## 📂 Dataset
@@ -30,7 +44,7 @@ This project is designed to run on **Jupyter notebook**, but locally you would n
 You can install them using:
 
 ```bash
-pip install torch torchvision opencv-python matplotlib tqdm
+pip install torch torchvision tqdm matplotlib opencv-python
 ```
 
 
@@ -46,7 +60,7 @@ You can easily switch to lighter variants like `DPT_Hybrid` or `MiDaS_small` for
 
 
 ## 📘 Language
-- python
+- Python
 
 
 ## 📄 License
