@@ -6,8 +6,8 @@ This project demonstrates monocular depth estimation using the **MiDaS model** f
 ## 📸 Example Outputs
 | Original Image                          | Depth Map                               |
 | --------------------------------------- | --------------------------------------- |
-| ![](./datset/mountain_river.jpg)        | ![](./outputs/mountain_river_depth.png) |
-| ![](./datset/city.jpg)                  | ![](./outputs/city_depth.png)           |
+| ![](./dataset/mountain_river.jpg)        | ![](./outputs/mountain_river_depth.png) |
+| ![](./dataset/city.jpg)                  | ![](./outputs/city_depth.png)           |
 
 
 ## 📌 Features
