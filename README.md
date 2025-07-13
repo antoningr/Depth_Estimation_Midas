@@ -1,13 +1,13 @@
 # 🔍 Depth Estimation Using MiDaS (PyTorch)
 
-This project demonstrates monocular depth estimation using the **MiDaS model** from Intel, a state-of-the-art deep learning model that predicts scene depth from a single RGB image. This implementation is designed for use in **Jupyter notebook**.
+This project uses **monocular depth estimation** using the **MiDaS deep learning model**, a state-of-the-art deep learning model that predicts scene depth from a **2D RGB image**. It processes a batch of images, generates corresponding depth maps, and optionally saves the results. This implementation is designed for use in a **Jupyter notebook**.
 
 
 ## 📸 Example Outputs
-| Original Image                    | Depth Map                               |
-| --------------------------------- | --------------------------------------- |
-| ![](./dataset/mountain_river.jpg) | ![](./outputs/mountain_river_depth.png) |
-| ![](./dataset/city.jpg)           | ![](./outputs/city_depth.png)           |
+| Original Image | Depth Map |
+| -------------- | --------- |
+| <img src="./dataset/mountain_river.jpg" width="300"/> | <img src="./outputs/mountain_river_depth.png" width="300"/> |
+
 
 
 ## 📌 Features
