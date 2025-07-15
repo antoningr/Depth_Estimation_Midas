@@ -61,7 +61,3 @@ You can easily switch to lighter variants like `DPT_Hybrid` or `MiDaS_small` for
 
 ## 📘 Language
 - Python
-
-
-## 📄 License
-- MIT License. This project uses MiDaS, which is available under the MIT license from intel-isl/MiDaS.
