@@ -25,7 +25,7 @@ This project uses **monocular depth estimation** using the **MiDaS deep learning
 
 
 ## 📂 Dataset
-The project expects a folder named `/dataset` containing 30 input RGB images.
+The project expects a folder named `/dataset` containing 51 input RGB images.
 
 
 ## 🔧 Requirements
