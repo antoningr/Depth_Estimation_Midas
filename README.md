@@ -17,11 +17,11 @@ This project uses **monocular depth estimation** using the **MiDaS deep learning
 
 
 ## 📂 Project Structure
-- ├── dataset/               # Input images
-- ├── outputs/               # Depth map results
-- ├── city_example.png       # Image example Original vs Depth
-- ├── depth_estimator.ipynb  # Jupyter notebook
-- └── README.md              # Project documentation
+- ├── dataset/                      # Input images
+- ├── outputs/                      # Depth map results
+- ├── city_example.png              # Image example Original vs Depth
+- ├── Depth_Estimation_Midas.ipynb  # Jupyter notebook
+- └── README.md                     # Project documentation
 
 
 ## 📂 Dataset
